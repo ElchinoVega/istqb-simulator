@@ -20,12 +20,10 @@
       "versionCode": 1,
       "permissions": []
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": [],
     "extra": {
       "eas": {
-        "projectId": "TU_PROJECT_ID_AQUI"
+        "projectId": "bb91d28b-dedb-4c0a-8959-8b7cbff36db3"
       }
     }
   }
