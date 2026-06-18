@@ -20,7 +20,10 @@
       "versionCode": 1,
       "permissions": []
     },
-    "plugins": [],
+    "plugins": [
+      "expo-font",
+      "expo-status-bar"
+    ],
     "extra": {
       "eas": {
         "projectId": "bb91d28b-dedb-4c0a-8959-8b7cbff36db3"

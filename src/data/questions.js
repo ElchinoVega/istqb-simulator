@@ -4,7 +4,7 @@
 // publicados por ISTQB® en istqb.org (uso no comercial con atribución)
 // ─────────────────────────────────────────────────────────────────────────────
 
-const ALL_QUESTIONS = [
+export const ALL_QUESTIONS = [
 
   // ══════════════════════════════════════════════════════
   // CAPÍTULO 1 — Fundamentos del Testing
