@@ -1048,6 +1048,7 @@ const ALL_QUESTIONS = [
     options:["La detección de defectos adicionales de alta severidad","Proporcionar medidas que son demasiado complicadas para que los humanos las deriven","Incompatibilidad con la plataforma de desarrollo","Tiempos de ejecución de prueba sustancialmente reducidos"],
     correct:2,
     explanation:"C es correcta. Si la automatización es incompatible con la plataforma de desarrollo, no podrá integrarse con ella ni pasar entradas de prueba al objeto de prueba ni recibir resultados. A (detectar más defectos de alta severidad) es un beneficio. B (proporcionar medidas complicadas) es normalmente un beneficio. D (tiempos reducidos) es normalmente un beneficio de la automatización." },
+];
 
 export const CHAPTER_CONFIG = {
   1: { name: "Fundamentos del Testing",        count: 8,  color: "#00CB75" },
