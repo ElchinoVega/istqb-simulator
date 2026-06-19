@@ -1,8 +1,9 @@
 import React, { useState, useCallback } from 'react';
 import {
   View, Text, TouchableOpacity, ScrollView, FlatList,
-  StyleSheet, StatusBar, SafeAreaView, Alert, Dimensions
+  StyleSheet, StatusBar, Alert, Dimensions
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useFocusEffect } from '@react-navigation/native';
 import { COLORS, SPACING, RADIUS } from '../constants/theme';
 import { loadHistory, clearHistory } from '../utils/storage';

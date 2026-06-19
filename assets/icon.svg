@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d2137"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E680"/>
+      <stop offset="100%" stop-color="#00CB75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="192" fill="url(#bg)"/>
+
+  <!-- Shield shape -->
+  <path d="M512 160 L760 280 L760 520 Q760 700 512 864 Q264 700 264 520 L264 280 Z"
+        fill="url(#shield)" opacity="0.95"/>
+
+  <!-- Checkmark inside shield -->
+  <path d="M408 540 L478 610 L616 440"
+        fill="none" stroke="#003F27" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Subtle inner glow line -->
+  <path d="M464 420 L512 160 L560 420"
+        fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" stroke-linecap="round"/>
+</svg>

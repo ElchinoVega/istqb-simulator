@@ -1,8 +1,9 @@
 import React, { useCallback, useEffect } from 'react';
 import {
   View, Text, TouchableOpacity, ScrollView,
-  StyleSheet, StatusBar, SafeAreaView, Dimensions
+  StyleSheet, StatusBar, Dimensions
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { COLORS, SPACING, RADIUS } from '../constants/theme';
 import { CHAPTER_CONFIG } from '../data/questions';
 import { saveAttempt } from '../utils/storage';

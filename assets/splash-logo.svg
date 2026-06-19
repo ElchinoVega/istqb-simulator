@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1284 2778">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E680"/>
+      <stop offset="100%" stop-color="#00CB75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1284" height="2778" fill="#0a1628"/>
+
+  <!-- Shield icon centered -->
+  <g transform="translate(642, 960)">
+    <!-- Shield -->
+    <path d="M0 -280 L240 -160 L240 120 Q240 320 0 480 Q-240 320 -240 120 L-240 -160 Z"
+          fill="url(#shield)"/>
+
+    <!-- Checkmark -->
+    <path d="M-100 40 L-36 110 L120 -80"
+          fill="none" stroke="#003F27" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title -->
+  <text x="642" y="1580" text-anchor="middle"
+        font-family="system-ui, -apple-system, sans-serif"
+        font-size="96" font-weight="800" fill="#e8f4f0" letter-spacing="-2">
+    ISTQB Simulador
+  </text>
+
+  <!-- Subtitle -->
+  <text x="642" y="1660" text-anchor="middle"
+        font-family="system-ui, -apple-system, sans-serif"
+        font-size="42" font-weight="400" fill="#6a8c7e" letter-spacing="3">
+    CTFL v4.0
+  </text>
+
+  <!-- Bottom line -->
+  <line x1="542" y1="1720" x2="742" y2="1720" stroke="#00CB75" stroke-width="3" opacity="0.4"/>
+</svg>
